@@ -41,3 +41,4 @@ Distributed under the Eclipse Public License, the same as Clojure.
 [enfocus]: https://github.com/ckirkendall/enfocus "Enlive-like DOM parsing and manipulation in clojurescript"
 [lein-cljsbuild]: https://github.com/emezeske/lein-cljsbuild "Automatically compile CLJS files"
 [marginalia]: https://github.com/fogus/marginalia "Docco-like inline source documentation"
+[hutch-web]: https://github.com/hhutch/hutch-web 
