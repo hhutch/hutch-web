@@ -1,6 +1,5 @@
 (ns {{name}}.views.layout
-  (:require [{{name}}.views.common :as common]
-            [net.cgrand.enlive-html :as dom])
+  (:require [net.cgrand.enlive-html :as dom])
   (:use noir.core
         [hiccup.core :only [html]]
         [hiccup.page-helpers :only [html5
