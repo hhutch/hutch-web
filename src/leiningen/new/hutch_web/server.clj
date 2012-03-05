@@ -3,7 +3,7 @@
             [clj-yaml.core :as yaml])
   (:use [noir.fetch.remotes]))
 
-(server/load-views "src/little_conjuror/views/")
+(server/load-views "src/{{sanitized}}/views/")
 
 ;; Example use of fetch
 ;(defremote adder [& nums]

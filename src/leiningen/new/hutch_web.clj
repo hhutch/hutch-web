@@ -1,12 +1,13 @@
 (ns leiningen.new.hutch-web
     (:use leiningen.new.templates))
 
-(def render (renderer "hutch-web"))
+(def render (renderer "hutch_web"))
 
 (defn hutch-web
   "Build a standard web project"
   [name]
   (let [data {:name name
+              :project-version "0.0.1-SNAPSHOT"
               :sanitized (sanitize name)}]
     (->files data
              ["project.clj" (render "project.clj" data)]
