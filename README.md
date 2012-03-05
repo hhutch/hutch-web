@@ -16,7 +16,7 @@ Install the plugin with [lein][lein]:
 
 ```bash
 lein plugin install lein-newnew 0.1.2
-git clone [hutch-web][hutch-web]
+git clone git://github.com/hhutch/hutch-web.git
 cd hutch-web
 lein install
 lein plugin install hutch-web 0.1.0-SNAPSHOT
