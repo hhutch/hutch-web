@@ -1,0 +1,31 @@
+# ignore lein project state
+/target
+/lib
+/classes
+/checkouts
+/logs/
+pom.xml
+*.jar
+*.class
+.lein-deps-sum
+.lein-failures
+.lein-plugins
+.lein-deps-sum
+
+# ignore vim savefile
+*.sw?
+
+# ignore alot of emacs state
+auto-save-list
+custom.el
+url/
+.org-id-locations
+\#*
+org-mode-config.el
+*~
+.#*
+\#*\#
+*.log
+.DS_Store
+org-clock-save.el
+emacs-config.el
